@@ -1,9 +1,4 @@
-# from re import sub
 from flask import Flask
-# from flask import abort,url_for, redirect
-# from flask import render_template
-# from flask import request
-# from numpy import ones
 from flask_restful import Api
 from resources.Addition import Addition
 from resources.Division import Division
