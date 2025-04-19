@@ -24,7 +24,7 @@ A lightweight RESTful API built with Flask, designed for simplicity and ease of 
    git clone https://github.com/shimels1/simple-flask-REST-API.git
    cd simple-flask-REST-API
    ```
-
+<br>
 
 2. **Create and activate a virtual environment (recommended):**
 
@@ -32,21 +32,21 @@ A lightweight RESTful API built with Flask, designed for simplicity and ease of 
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-
+<br>
 
 3. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
-
+<br>
 
 4. **Run the application:**
 
    ```bash
    python app.py
    ```
-
+<br>
 
    The API will be accessible at `http://localhost:5000/`.
 
@@ -59,14 +59,14 @@ To run the application inside a Docker container:
    ```bash
    docker build -t simple-flask-api .
    ```
-
+<br>
 
 2. **Run the Docker container:**
 
    ```bash
    docker run -p 5000:5000 simple-flask-api
    ```
-
+<br>
 
    The API will be accessible at `http://localhost:5000/`.
 
@@ -82,7 +82,7 @@ simple-flask-REST-API/
 ├── Dockerfile         # Docker configuration
 └── .dockerignore      # Files to exclude from Docker build
 ```
-
+<br>
 
 ## API Endpoints
 
